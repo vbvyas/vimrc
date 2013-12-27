@@ -1,0 +1,4 @@
+vimrc
+=====
+
+vim, gvim configurations
