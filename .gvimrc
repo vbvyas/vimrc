@@ -24,8 +24,8 @@ set showcmd
 inoremap jj <ESC>
 
 " move by row not by line
-:nmap j gj
-:nmap k gk
+nmap j gj
+nmap k gk
 
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
