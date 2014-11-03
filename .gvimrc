@@ -21,6 +21,11 @@ set autoindent
 set showmode
 set showcmd
 
+" search
+set incsearch
+set ignorecase
+set smartcase
+
 inoremap jj <ESC>
 
 " move by row not by line
