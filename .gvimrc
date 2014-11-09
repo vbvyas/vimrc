@@ -1,3 +1,6 @@
+" automatically reload vimrc when it's saved
+au BufWritePost .vimrc so ~/.vimrc
+
 " color scheme of the moment:
 syntax on
 colorscheme wombat256
