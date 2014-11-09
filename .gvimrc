@@ -6,10 +6,13 @@ if has("gui_running")
 	set lines=999 columns=999
 endif
 
+" indentation
 set tabstop=2
 set shiftwidth=2
 set softtabstop=2
 set expandtab
+set autoindent
+set smartindent
 
 set nocompatible
 
@@ -17,7 +20,7 @@ set modelines=0
 
 set encoding=utf-8
 set scrolloff=3
-set autoindent
+
 set showmode
 set showcmd
 
