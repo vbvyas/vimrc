@@ -40,4 +40,7 @@ nnoremap <C-H> <C-W><C-H>
 set splitbelow
 set splitright
 
+" set spell check
+set spell
+
 autocmd vimenter * if !argc() | NERDTree | endif
