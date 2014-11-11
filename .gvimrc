@@ -32,6 +32,14 @@ set incsearch
 set ignorecase
 set smartcase
 
+" keep search at the center of screen
+nnoremap <silent> n nzz
+nnoremap <silent> N Nzz
+nnoremap <silent> * *zz
+nnoremap <silent> # #zz
+nnoremap <silent> g* g*zz
+nnoremap <silent> g# g#zz
+
 inoremap jj <ESC>
 
 " move by row not by line
