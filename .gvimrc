@@ -57,7 +57,4 @@ set splitright
 " set spell check
 set spell
 
-" show git diff in vim when commiting
-autocmd FileType gitcommit DiffGitCached | wincmd p
-
 autocmd vimenter * if !argc() | NERDTree | endif
