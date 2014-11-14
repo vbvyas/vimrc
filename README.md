@@ -1,4 +1,4 @@
 vimrc
 =====
 
-vim and gvim configuration files.
+vim configuration files.
