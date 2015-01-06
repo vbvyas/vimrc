@@ -3,7 +3,7 @@ au BufWritePost .vimrc so ~/.vimrc
 
 " color scheme of the moment:
 syntax on
-colorscheme wombat256
+colorscheme wombat256mod
 if has("gui_running")
   if has("gui_gtk2")
     set guifont=Inconsolata\ 12
