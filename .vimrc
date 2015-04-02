@@ -46,6 +46,9 @@ inoremap jj <ESC>
 nnoremap j gj
 nnoremap k gk
 
+" select the last pasted/modified lines
+nnoremap gp `[v`]
+
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
