@@ -49,6 +49,11 @@ nnoremap k gk
 " select the last pasted/modified lines
 nnoremap gp `[v`]
 
+" automatically go to end of pasted content
+vnoremap <silent> y y`]
+vnoremap <silent> p p`]
+nnoremap <silent> p p`]
+
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
