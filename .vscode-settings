@@ -1,0 +1,55 @@
+{
+    "vim.easymotion": true,
+    "vim.sneak": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+      {
+        "before": ["j", "j"],
+        "after": ["<Esc>"]
+      }
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+      {
+          "before": [
+              "p",
+          ],
+          "after": [
+              "p",
+              "g",
+              "v",
+              "y"
+          ]
+      },
+      {
+          "before": [
+              ">"
+          ],
+          "commands": [
+              "editor.action.indentLines"
+          ]
+      },
+      {
+          "before": [
+              "<"
+          ],
+          "commands": [
+              "editor.action.outdentLines"
+          ]
+      },
+      {
+        "before": ["j"],
+        "after": ["g", "j"]
+      }
+    ],
+    "npm.enableScriptExplorer": true,
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    //"editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace"
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always"
+}
